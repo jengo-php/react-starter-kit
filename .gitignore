@@ -123,3 +123,4 @@ _modules/*
 .vscode/
 
 /results/
+node_modules/
