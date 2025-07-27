@@ -23,9 +23,6 @@ composer create-project jengo/react-start-kit my-app
 ```bash
 cd my-app
 
-# Install PHP dependencies
-composer install
-
 # Install JS dependencies
 npm install
 ```
