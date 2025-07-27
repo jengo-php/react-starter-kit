@@ -1,5 +1,9 @@
 # Jengo React Starter Kit
 
+![Packagist Version](https://img.shields.io/packagist/v/jengo/react-starter-kit)
+![Packagist Downloads](https://img.shields.io/packagist/dt/jengo/react-starter-kit)
+![License](https://img.shields.io/github/license/jengo-php/react-starter-kit)
+
 A modern **CodeIgniter 4 + React** starter template powered by **Inertia.js**, built to kickstart your next full-stack project with zero boilerplate hassle.
 
 > This starter kit uses [React](https://reactjs.org/) with [Webpack](https://webpack.js.org/) and [Tailwind CSS](https://tailwindcss.com/) pre-configured. Backend powered by [CodeIgniter 4](https://codeigniter.com/), bridged by [Inertia.js](https://inertiajs.com/).
