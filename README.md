@@ -41,7 +41,7 @@ By default, the development server runs at [http://localhost:8080](http://localh
 ## 🧩 Included Features
 
 - ✅ React 19
-- ✅ Vite for fast builds
+- ✅ Webpack for fast builds
 - ✅ Tailwind CSS
 - ✅ Inertia.js (React adapter)
 - ✅ Clean project structure
