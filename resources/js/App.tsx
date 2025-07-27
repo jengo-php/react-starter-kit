@@ -1,3 +1,4 @@
+import { ErrorBoundary } from "@/Shared/ErrorBoundary";
 import { createInertiaApp } from "@inertiajs/react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -15,10 +16,11 @@ createInertiaApp({
   setup({ el, App, props }) {
     createRoot(el).render(
       <StrictMode>
-        <App {...props} />
+        <ErrorBoundary>
+          <App {...props} />
+        </ErrorBoundary>
       </StrictMode>
     );
   },
-
   title: (title) => `Jengo React Starter Kit - ${title}`,
 });

@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="<?= base_url("css/index.css") . getFileVersion() ?>">
-    <script src="<?= base_url("js/app.js") . getFileVersion() ?>" defer></script>
+    <link rel="stylesheet" href="<?= base_url("dist/css/index.css") . getFileVersion() ?>">
+    <script src="<?= base_url("dist/js/app.js") . getFileVersion() ?>" defer></script>
 </head>
 
 <body>
